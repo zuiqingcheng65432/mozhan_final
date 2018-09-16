@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/登录.css"/>
+		<link href="css/basic.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header>
+			<div class="logo fl">
+				<a href="魔战.html"><img src="img/logo1.png" alt="" /></a>
+			</div>
+		</header>
+		
+		<div class="login">
+			<div class="loginImg">
+				<img src="img/logotxt.png" alt="" />
+			</div>
+		</div>
+		
+		<div class="loginBox">
+			<div class="login_mode">
+				<span>微信登录</span>
+				<span class="active">账户登录</span>
+			</div>
+			<div class="login_main">
+				<div class="login_info">
+					<form action="魔战.html">
+						<ul>
+							<li>
+								<input type="text" placeholder="用户名" class="user"/>
+								
+							</li>
+							<li>
+								<input type="text" placeholder="密码" class="pwd"/>
+							</li>
+						
+						</ul>
+						<input type="submit" value="登录" class="login-btn"/>
+						<div class="btn">
+							<a href="#">找回密码</a>
+							<a href="index.html">账号注册</a>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	
+	
+		<footer>
+			<p>CopyRight © 2005 - 2015 All Right Reserved 版权所有：二五八集团</p>
+		</footer>
+		
+		
+	</body>
+	<script>
+		let oBtn=document.getElementsByClassName("login-btn")[0];
+		let oUser=document.getElementsByClassName("user")[0];
+		let Pwd=document.getElementsByClassName("pwd")[0];
+		oBtn.onclick=function()
+		{
+			if(oUser.value=="" || Pwd.value=="")
+			{
+				alert("请输入正确的账号和密码");
+				return false;
+			}
+		}
+	</script>
+</html>

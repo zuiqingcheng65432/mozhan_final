@@ -1,0 +1,398 @@
+.topbar{
+    width: 100%;
+    height: 106px;
+    position: fixed;
+    background:rgba(0,0,0,0.4) url(../img/menu_bg.png) repeat;
+    z-index: 999;
+}
+.top_container{
+    height:105px;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.topside{
+	width: 260px;
+	margin-top: 6px;
+}
+.logoLink{
+	display: block;
+	width: 280px;
+	padding-top:76px;
+	overflow: hidden;
+	background:url(../img/logo.png) no-repeat left 15px;
+}
+.topTool{
+	height: 26px;
+	margin: 16px 14px 12px 434px;
+	font-size: 0.875em;
+}
+
+.nav_active{
+	overflow: hidden;
+	position:fixed;
+	top: 106px;
+	left: 0;
+	height:0;
+	width: 100%;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+	/*display: none;*/
+	transition: all 1s;
+}
+.nav_active li a{
+	width: 100%;
+	margin: 0;
+	padding: 0 16px;
+	display: block;
+	color: #666;
+	background: #fff;
+	border: 1px solid #E4E4E4;
+	line-height: 50px;
+	font-size: 1.2em;
+}
+
+.topTool .tel{
+	float: left;
+	width: 180px;
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+}
+.topTool .icon-dianhua{
+	font-size: 24px;
+	padding-right: 6px;
+}
+.topTool .register{
+	float: left;
+	width: 68px;
+	line-height: 26px;
+	border-radius: 13px;
+	color: #666;
+	margin-left: 12px;
+	text-align: center;
+	background: #ffff00;
+}
+.topTool .login{
+	float: left;
+	width: 68px;
+	line-height: 26px;
+	border-radius: 13px;
+	color: #666;
+	margin-left: 12px;
+	text-align: center;
+	background: #fff;
+}
+
+.nav_btn{
+	display: none;
+	
+}
+
+.nav_box{
+	margin-top: 2px;
+	float: left;
+}
+.nav_box li{
+	width: 96px;
+	float: left;
+	margin-left: 20px;
+}
+.nav_box li a{
+	font-size: 1.125em;
+	float: left;
+	padding: 0 30px;
+	line-height: 50px;
+	color: #FFFF00;
+}
+.nav_box li a.active{
+	background: rgba(255,255,255,0.3);
+}
+
+.banner_n{
+	background: url(../img/aboutbg.jpg) no-repeat center center;
+	background-size: 100%;
+	min-height: 380px;
+	position:relative;
+	width: 100%;
+	top: 0;
+}
+
+
+.about_title{
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.about_title h2{
+	background: url(../img/about_title_bg.png) repeat-x 10px;
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.about_title .contact_text{
+	line-height: 38px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
+}
+.contact .map{
+	background: url(../img/map.jpg) no-repeat center;
+	width: 100%;
+	height: 412px;
+	position: relative;
+	overflow: hidden;
+}
+.footer{
+	width: 100%;
+	background: #333;
+}
+.footer p{
+	text-align: center;
+	line-height: 54px;
+	border-bottom: 1px solid #3f3f3f;
+}
+.footer p a{
+	padding: 0 26px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.contact_info{
+	padding: 16px 0;
+	font-size: 14px;
+	color: #fff;
+}
+.contact_info .info{
+	width: 80%;
+	line-height: 24px;
+	text-align: left;
+}
+.contact_info .ma{
+	width: 10%;
+}
+.contact_info .ma img{
+	width: 100%;
+}
+.friendlink{
+	width: 100%;
+	background: #060606;
+}
+
+.friendlink p{
+	text-align: center;
+	line-height: 42px;
+	color: #fff;
+	font-size: 12px;
+}
+.friendlink p a{
+	color: #fff;
+	font-size: 12px;
+	padding: 0 6px;
+}
+
+.footer_info{
+	background: #333333;
+}
+	
+.footer_infom{
+
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px 0;
+	
+}
+.footer_infom a p{
+	font-size: 12px;
+	color: #939393;
+}
+
+.footer-logo{
+		position: fixed;
+		width: 100%;
+		bottom: 0;
+		z-index: 999;
+		display: none;
+	}
+	.footer-logo li{
+		float: left;
+		height: 56px;
+		line-height: 56px;
+		background:url(../img/phone-bg.jpg) repeat-x ;
+		width: 33.33%;
+		text-align: center;
+		border-bottom: 2px solid #000;
+	}
+	.footer-logo li a{
+		color: #FFFF00;
+		border: 1px solid#525252;
+		border-right: 1px solid #333;
+	}
+
+.friendlink p a:hover{
+	color: #FFFF00;
+}
+.topTool .register:hover,.topTool .login:hover{
+	background: #ff7200;
+	color:#fff;
+}
+.footer-logo li:hover{
+	background: #333;
+}
+.footer p a:hover{
+	color:#FFFF00;
+}
+
+@media screen and (max-width:1200px){
+	
+}
+
+
+@media screen and (max-width:992px){
+	.topright .topTool{
+		display: none;
+	}
+	.topright .nav_box{
+		display: none;
+	}
+	.nav_box li{
+		margin-left: 2px;
+	}
+	.nav_btn{
+		cursor: pointer;
+		display: block;
+		margin-right: 6px;
+		background: url(../img/icon.png) no-repeat -60px -20px;
+		width: 50px;
+		height: 50px;
+		background-size: 100px;
+	}
+	.topright{
+		margin-top: 30px;
+	}
+	.banner_n{
+		background: url(../img/aboutbg.jpg) no-repeat center center;
+		background-size: cover;
+			min-height: 160px;
+		position:relative;
+		width: 100%;
+		top: 0;
+	}
+	.footer-logo{
+		display: block;
+	}
+	.footer .container p{
+		line-height: 30px;
+		padding: 5px 0;
+	}
+	.contact_info .info{
+		line-height: 24px;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contact_info .ma{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contact_info .ma img{
+		text-align: center;
+		width: 70px;
+		height: 70px;
+	}
+	.friendlink p{
+		line-height: 30px;
+		padding: 5px 0;
+		text-align: center;
+	}
+	.footer-logo{
+		display: block;
+	}
+	
+}
+@media screen and (max-width:768px){
+	.topbar{
+		height: 60px;
+	}
+	.top_container{
+		height: 60px;
+	}
+	.logoLink{
+		height: 60px;
+		overflow: hidden;
+		padding-top: 60px;
+		background: transparent url(../img/logo.png) no-repeat;
+		margin-left: 16px;
+		background-size: 200px 40px;
+	}
+	.nav_active{
+		top: 60px;
+	}
+	.topright .topTool{
+		display: none;
+	}
+	.topright .nav_box{
+		display: none;
+	}
+	.nav_box li{
+		margin-left: 2px;
+	}
+	.nav_btn{
+		cursor: pointer;
+		display: block;
+		margin-right: 6px;
+		background: url(../img/icon.png) no-repeat -60px -20px;
+		width: 50px;
+		height: 50px;
+		background-size: 100px;
+		margin-top: -30px;
+	}
+	.topright{
+		margin-top: 30px;
+	}
+	.banner_n{
+		background: url(../img/aboutbg.jpg) no-repeat center center;
+		background-size: cover;
+		position:relative;
+		min-height: 160px;
+		width: 100%;
+		top: 0;
+	}
+	.footer-logo{
+		display: block;
+	}
+	.footer .container p{
+		line-height: 30px;
+		padding: 5px 0;
+	}
+	.contact_info .info{
+		line-height: 24px;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contact_info .ma{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.contact_info .ma img{
+		text-align: center;
+		width: 70px;
+		height: 70px;
+	}
+	.friendlink p{
+		line-height: 30px;
+		padding: 5px 0;
+		text-align: center;
+	}
+	.footer-logo{
+		display: block;
+	}
+	.about_title h2{
+		font-size: 26px;
+	}
+}

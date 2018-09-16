@@ -1,0 +1,221 @@
+body{
+	background: #ececec;
+	font-family: "微软雅黑";
+}
+
+header{
+	border: 1px solid #ddd;
+	width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+h2.main{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	color: #414e61;
+	font-size: 18px;
+	padding-left: 12px;
+	height: 70px;
+	line-height: 70px;
+}
+h2.main:before{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	content: '';
+	width: 2px;
+	height: 20px;
+	background: #414E61;
+}
+
+.main .fr{
+	font-size: 14px;
+}
+
+.step{
+	position: absolute;
+	left: 308px;
+	top: 15px;
+	width: 850px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+.step li{
+	width:270px;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	padding-left: 20px;
+	background: #b6b6b6;
+	
+	
+}
+.step li:after{
+	position: absolute;
+	top: -8px;
+	right: -54px;
+	border-width: 27px 27px 28px 27px ;
+	content: '';
+	border-style: solid;
+	z-index: 1;
+	border-color: transparent transparent transparent #ECECEC;
+}
+
+.step li::before{
+	position: absolute;
+	top: 0;
+	right: -38px;
+	z-index: 2;
+	display: block;
+	content: '';
+	border-color: transparent transparent transparent #b6b6b6;;
+	border-width: 19px 19px 20px 19px;
+	border-style: solid;
+}
+.step li.active:before{
+	border-color: transparent transparent transparent #414E61;
+}
+.step li.active{
+	color: #414E61;
+	background: #414E61;
+}
+.step li.two,.step li.three{
+	padding-left: 46px;
+}
+.step li p{
+	font-size: 16px;
+	color: #fff;
+}
+
+
+main .wrap{
+	width: 850px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+main .wrap #reg_box{
+	padding-top: 30px;
+}
+
+main .wrap #reg_box h3{
+	line-height: 40px;
+	font-size: 16px;
+	margin-bottom: 14px;
+}
+main .wrap #reg_box input,main .wrap #reg_box select{
+	margin-bottom: 16px;
+	margin-left: 20px;
+	width: 90%;
+	height: 40px;
+	line-height: 20px;
+	padding: 10px 6px;
+	border-radius: 4px;
+}
+main .wrap #reg_box select{
+	width: 28%;
+}
+main .wrap #reg_box input#username,main .wrap #reg_box input#people,main .wrap #reg_box input#agent{
+	margin-left: 36px;
+	width: 90%;
+}
+
+main .wrap #reg_box h3.two-text{
+	letter-spacing: 16px;
+}
+main .wrap #reg_box input[type="checkbox"]{
+	margin:10px 0;
+	width: 14px;
+	height: 14px;
+}
+main .wrap #reg_box p{
+	margin-left: 88px;
+}
+button{
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 84px;
+	background: #414E61;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+footer p{
+	margin-top: 50px;
+	position: relative;
+	padding: 0 0 40px 0;
+	text-align: center;
+	font-size: 14px;
+	left: 0;
+	bottom:0;
+	
+}
+
+
+.hidden1{
+	position: absolute;
+	top: 114px;
+	right: 110px;
+	display: none;
+	color: red;
+}
+
+.hidden2{
+	position: absolute;
+	top: 168px;
+	right: 90px;
+	display: none;
+	color: red;
+}
+.hidden3{
+	position: absolute;
+	top: 224px;
+	right: 90px;
+	display: none;
+	color: red;
+}
+.hidden4{
+	position: absolute;
+	top: 278px;
+	right: 90px;
+	display: none;
+	color: red;
+}
+.hidden5{
+	position: absolute;
+	top: 390px;
+	right: 90px;
+	display: none;
+	color: red;
+}
+.hidden6{
+	position: absolute;
+	top: 448px;
+	right: 90px;
+	display: none;
+	color: red;
+}
+.hidden7{
+	position: absolute;
+	top: 505px;
+	right: 90px;
+	display: none;
+	color: red;
+}
+.hidden8{
+	position: absolute;
+	top: 559px;
+	right: 120px;
+	display: none;
+	color: red;
+}
